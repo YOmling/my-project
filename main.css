@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  background: url(./img/hero.jpg) center top no-repeat, url(./img/botom.jpg) bottom no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.header {
+
+  height: 120px;
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: #001821;
+  height: 100%;
+
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+
+.logo__img {
+  display: inline-block;
+  width: 85px;
+  height: 36px;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.logo {
+  margin-right: 79px;
+  display: inline-block;
+  margin-top: 29px;
+}
+
+.menu__link {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 54px;
+  position: relative;
+  top: -13px
+}
+
+.contacts__header {
+  display: inline-block;
+  color: #ffff;
+  font-style: normal;
+  text-align: right;
+
+}
+
+.contacts__phone {
+  margin-left: 411px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 35px;
+  display: flex;
+  text-align: right;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 27px;
+}
+
+.contacts__workhours {
+  float: right;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  display: flex;
+  align-items: right;
+  text-decoration-line: underline;
+
+  text-align: right;
+}
+
+.header {
+  margin-bottom: 135px;
+}
+
+.preview__title {
+  width: 511px;
+  font-size: 72px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.preview__text {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.preview {
+  margin-bottom: 246px;
+}
+
+.button {
+
+  width: 168px;
+  height: 55px;
+  border: 1px solid #F5170E;
+  border-radius: 35px;
+  text-align: center;
+  background: #F5170E;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background: #F5170E;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.hottours__subtitle {
+  font-weight: bold;
+  font-size: 24px;
+
+  margin-bottom: 23px
+}
+
+.hottours__text {
+  font-weight: normal;
+  font-size: 14px;
+  color: #303030;
+  width: 324px;
+  text-align: left;
+  padding: 28px;
+}
+
+.hottours__item-container {
+  padding: 33px 16px 26px 22px;
+
+}
+
+.hottours__option {
+  display: flex;
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.hottours__list {
+  display: flex;
+
+}
+
+.hottours__img-icon {
+  width: 362px;
+  height: 144px;
+  object-fit: cover;
+
+}
+
+.title {
+  color: #FFFFFF;
+  margin-bottom: 51px;
+  font-size: 36px;
+
+}
+
+.hottours__item {
+  background-color: #FFFFFF;
+  margin-right: 27px;
+  color: #001821;
+  border-radius: 4px;
+  width: 362px;
+  overflow: hidden;
+
+
+}
+
+.hottours__option-text {
+  margin-right: 28px;
+}
+
+.news__title {
+  margin-top: 127px;
+}
+
+.hottours__button {
+  margin-bottom: 26px;
+  margin-left: 24px;
+  width: 168px;
+  height: 55px;
+  border: 1px solid #F5170E;
+  border-radius: 35px;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+  color: #F5170E;
+
+}
+
+.hottours__button:hover {
+  color: #FFFFFF;
+}
+
+
+.news__item {
+  display: inline-block;
+  width: 557px;
+  vertical-align: top;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 13px;
+}
+
+.news__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  width: 557px;
+  height: 394px;
+}
+
+.news__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 140px;
+}
+
+
+.news__date {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.news__subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.news__list {
+  margin-bottom: 55px;
+}
+
+.paginator {
+  color: #ffff;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.paginator__display,
+.paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__display {
+  margin-right: 26px;
+  margin-bottom: 125px;
+}
+
+.paginator__display-all {
+  margin-right: 29px;
+}
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 32px;
+}
+
+.pager__item--active .paginator__link {
+  background: #FFFFFF;
+  color: #F5170E;
+
+}
+
+.about::before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url(./img/gates.jpg) center center / cover no-repeat;
+  overflow: hidden;
+
+}
+
+.about__content {
+  background: url(./img/mountains.jpg);
+  padding: 80px 98px;
+  display: inline-block;
+  vertical-align: top;
+  width: 785px;
+  height: 455px;
+  margin-left: -336px;
+  margin-top: 95px;
+  overflow: hidden;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #001821;
+  margin-bottom: 40px;
+}
+
+.about__text {
+  margin-bottom: 105px;
+  width: 502px;
+}
+
+.social__item {
+  display: inline-block;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+
+.about__content {
+  margin-bottom: 53px;
+}
+
+.footer {
+  margin: 0 auto;
+
+  display: flex;
+  position: relative;
+}
+
+.footer__menu {
+position: relative;  
+top: 47px;
+  
+
+}
+
+.contacts__workhours-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  align-items: right;
+  color: #FFFFFF;
+  position: relative;
+  left: 263px;
+}
+
+.contact__footer {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: #FFFFFF;
+  text-decoration: none;
+  position: relative;
+  left: 67px;
+  width: 191px;
+  height: 20px;
+  top: 32px
+}
+
+.socials__list {
+  position: relative;
+  left: 170px;
+  width: 197px;
+  top: 25px;
+}
+
+.footer__logo {
+  display: inline-block;
+}
+
+.contacts__footer {
+  display: block;
+}
