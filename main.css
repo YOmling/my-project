@@ -152,6 +152,8 @@
           justify-content: center;
   color: #ffff;
   list-style-type: none;
+    margin: 0;
+  padding-top: 4px;
 }
 
 .menu__item {
