@@ -1,0 +1,76 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+$tablets: 768px;
+$phones: 480px;
+
+@import 'components/media.scss';
+@import url(https://necolas.github.io/normalize.css/latest/normalize.css);
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap&subset=cyrillic);
+@import 'components/hero.scss';
+@import 'components/header.scss';
+@import 'components/section.scss';
+@import 'components/headline.scss';
+@import 'components/reviews.scss';
+@import 'components/order.scss';
+@import 'components/fixed-menu.scss';
+@import 'components/hamburger.scss';
+@import 'components/fullscreenmenu.scss';
+@import 'components/slider.scss';
+@import 'components/team.scss';
+
+
+
+html {
+  font-size: $baseFontSize;
+
+  @include tablets {
+    font-size:$baseFontSize - 1px ;
+
+  }
+
+  @include phones {
+    font-size:$baseFontSize - 2px ;
+
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif ;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased ;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 95%;
+  max-width: $containerWidth;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
